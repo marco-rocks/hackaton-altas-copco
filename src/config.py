@@ -1,0 +1,16 @@
+from pathlib import Path
+
+RAIZ_PROJETO = Path(__file__).resolve().parents[1]
+
+CAMINHO_DADOS = RAIZ_PROJETO / "data" / "db_atlas.xlsx"
+
+DIRETORIO_SAIDAS = RAIZ_PROJETO / "outputs"
+DIRETORIO_FIGURA = DIRETORIO_SAIDAS / "figures"
+DIRETORIO_TABELAS = DIRETORIO_SAIDAS / "tables"
+
+ABA_HISTORICO = "HISTORICO_COTACOES"
+ABA_FROTA = "FROTA_ATIVOS"
+
+MINIMO_PROPOSTAS_CLIENTE = 10
+
+CLIENTE_ALVO = "Senna Heavy Machining 614"
